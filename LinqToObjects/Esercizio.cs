@@ -224,7 +224,7 @@ namespace LinqToObjects
             }
 
             //GroupBy con funzione di aggregazione(SUM)
-            //Raggruppare gli ordini per prodotto e ricavare la somma delle quantità
+            //Raggruppare gli ordini per prodotto e ricavare la somma delle quantità.
             var sumQuantityByProduct =
                 orderList
                 .GroupBy(p => p.ProductID)
